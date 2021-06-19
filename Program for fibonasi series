@@ -1,0 +1,17 @@
+def fibonasi(a,b):
+	for i in range(3,n+1):
+		c=a+b
+		a=b
+		b=c
+		print(c,end='  ')
+n=int(input('enter range of series'))
+a=0
+b=1
+print(a,b,end='  ')
+fibonasi(a,b)
+	
+Output:
+
+enter range of series10
+0 1  1  2  3  5  8  13  21  34
+[Program finished]	
