@@ -1,0 +1,19 @@
+def prime(a):
+       for i in range(2,n):
+       	if n%i==0:
+       		print(a,'is not a prime')
+       		break
+        else:
+       	    print(a,'is prime')
+       	   
+n=int(input('enter a number'))
+prime(n)
+
+
+
+Output:
+
+ enter a number3
+3 is prime
+
+[Program finished]
