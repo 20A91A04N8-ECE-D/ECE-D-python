@@ -1,0 +1,49 @@
+n=int(input('enter a number'))
+s=int(input('enterastartpoint:'))
+e=int(input('enterendpoint:'))
+
+if s<e:
+ for i in range(s,e+1):
+  print(n,'*',i,'=',n*i)
+else:
+ for i in range(s,e-1,-1):
+  print(n,'*',i,'=',n*i)
+
+
+
+
+
+output:
+
+enter a number2                   
+enterastartpoint:9
+enterendpoint:1
+2 * 9 = 18
+2 * 8 = 16
+2 * 7 = 14
+2 * 6 = 12
+2 * 5 = 10
+2 * 4 = 8
+2 * 3 = 6
+2 * 2 = 4
+2 * 1 = 2
+
+[Program finished]
+
+
+output:
+
+enter a number 2
+enterastartpoint:1
+enterendpoint:9
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+
+[Program finished]
