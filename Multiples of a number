@@ -1,0 +1,17 @@
+def multiples(a,b):
+	for i in range(a,b+1):
+		     if i%n==0:
+		     	print(i,end='  ')
+n=int(input('enter a number'))
+s=int(input('enter starting point'))
+e=int(input('enter ending point'))
+multiples(s,e)
+
+
+Output:
+
+enter a number3
+enter starting point1
+enter ending point30
+3  6  9  12  15  18  21  24  27  30
+[Program finished]
