@@ -1,0 +1,16 @@
+def fun(a):
+c=0
+for i in a:
+c+=1
+return (c)
+s=input('enter a string:-')
+print(fun(s))
+
+
+Output:-
+
+
+enter a string:-engineering
+11
+
+[Program finished]
